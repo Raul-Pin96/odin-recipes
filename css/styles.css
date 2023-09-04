@@ -16,4 +16,10 @@ h1 {
 
 ul li {
     text-align: center;
+    list-style-type: none;
+}
+
+ul a {
+    color: red;
+    text-decoration: none;
 }
