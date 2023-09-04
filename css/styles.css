@@ -3,17 +3,25 @@ body {
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-.picture {
+.chef-image {
+    width: 640px;
+}
+
+.chef-image,
+.recipe-image {
     display: block;
     margin: 0 auto;
-    width: 640px;
     height: auto;
 }
 
 .home-title {
-    text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.home-title,
+.recipe-title {
+    text-align: center;
 }
 
 .link-list li {
