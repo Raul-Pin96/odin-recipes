@@ -1,5 +1,6 @@
 body {
     font-size: 1.2em;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 img {
@@ -9,6 +10,8 @@ img {
 
 h1 {
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 ul li {
