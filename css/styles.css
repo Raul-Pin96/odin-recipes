@@ -1,10 +1,15 @@
 body {
     font-size: 1.2em;
     font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: hsl(0, 50%, 90%);
 }
 
 .chef-image {
     width: 640px;
+}
+
+.recipe-image {
+    width: 400px;
 }
 
 .chef-image,
@@ -12,6 +17,20 @@ body {
     display: block;
     margin: 0 auto;
     height: auto;
+}
+
+.rectangle {
+    height: 300px;
+    width: auto;
+}
+
+.card {
+    background-color: #FCCC8Da9;
+    width: 70%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 .home-title {
