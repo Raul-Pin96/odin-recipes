@@ -16,6 +16,7 @@ body {
 
 .prev-next-links li {
     list-style-type: none;
+    padding: 25px;
 }
 
 .prev-next-links li a {
@@ -28,19 +29,20 @@ body {
     border-bottom: 3px solid #444;
 }
 
+.chef-image,
+.recipe-image {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
 .chef-image {
     width: 640px;
 }
 
 .recipe-image {
     width: 400px;
-}
-
-.chef-image,
-.recipe-image {
-    display: block;
-    margin: 0 auto;
-    height: auto;
+    margin-bottom: 20px;
 }
 
 .rectangle {
@@ -51,7 +53,7 @@ body {
 .card {
     background-color: #FCCC8Da9;
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto 25px;
     padding: 25px;
     border-radius: 25px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -67,6 +69,20 @@ body {
 .home-title,
 .recipe-title {
     text-align: center;
+}
+
+.recipe-title {
+    margin-bottom: 20px;
+}
+
+.card p,
+.card h2 {
+    padding: 20px;
+}
+
+.card ul,
+.card ol {
+    padding: 0 40px;
 }
 
 .link-list {
